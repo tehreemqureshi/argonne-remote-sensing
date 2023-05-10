@@ -1,15 +1,15 @@
-<img src="thumbnail.png" alt="thumbnail" width="300"/>
+<img src="https://crocus-urban.org/wp-content/uploads/sites/115/2023/03/CROCUS-Logo_preview_R2.png" alt="thumbnail" width="300"/>
 
 # (Replace_with_your_title) Cookbook
 
-[![nightly-build](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/cookbook-template/actions/workflows/nightly-build.yaml)
+[![nightly-build](https://github.com/EVS-ATMOS/argonne-remote-sensing/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/EVS-ATMOS/argonne-remote-sensing/actions/workflows/nightly-build.yaml)
 [![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 
-This Project Pythia Cookbook covers ... (replace `...` with the main subject of your cookbook ... e.g., _working with radar data in Python_)
+This Project Pythia Cookbook covers work related to the Argonne Remote Sensing summer internship project at Argonne National Laboratory.
 
 ## Motivation
 
-(Add a few sentences stating why this cookbook will be useful. What skills will you, "the chef", gain once you have reached the end of the cookbook?)
+Students will showcase working with different types of remote sensing data.
 
 ## Authors
 
@@ -17,8 +17,8 @@ This Project Pythia Cookbook covers ... (replace `...` with the main subject of 
 
 ### Contributors
 
-<a href="https://github.com/ProjectPythia/cookbook-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ProjectPythia/cookbook-template" />
+<a href="https://github.com/EVS-ATMOS/argonne-remote-sensing/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EVS-ATMOS/argonne-remote-sensing" />
 </a>
 
 ## Structure
@@ -58,22 +58,21 @@ Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyt
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
 
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the `https://github.com/EVS-ATMOS/argonne-remote-sensing` repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/EVS-ATMOS/argonne-remote-sensing
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `argonne-remote-sensing` directory
    ```bash
-   cd cookbook-example
+   cd argonne-remote-sensing
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate argonne-remote-sensing-dev
    ```
 1. Move into the `notebooks` directory and start up Jupyterlab
    ```bash
