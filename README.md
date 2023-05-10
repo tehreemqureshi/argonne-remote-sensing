@@ -1,6 +1,6 @@
 <img src="https://crocus-urban.org/wp-content/uploads/sites/115/2023/03/CROCUS-Logo_preview_R2.png" alt="thumbnail" width="300"/>
 
-# (Replace_with_your_title) Cookbook
+# Argonne Remote Sensing Cookbook
 
 [![nightly-build](https://github.com/EVS-ATMOS/argonne-remote-sensing/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/EVS-ATMOS/argonne-remote-sensing/actions/workflows/nightly-build.yaml)
 [![Binder](http://binder.mypythia.org/badge_logo.svg)](http://binder.mypythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
