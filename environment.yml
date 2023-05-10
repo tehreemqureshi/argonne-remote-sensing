@@ -1,4 +1,4 @@
-name: cookbook-dev
+name: argonne-remote-sensing-dev
 channels:
   - conda-forge
 dependencies:
