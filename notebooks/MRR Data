@@ -3,3 +3,5 @@ import matplotlib.pyplot as plt
 import xarray as xr
 import netCDF4
 import pyart
+MRR_read_in = Dataset('/Users/adamabdelhak/Downloads/MRR-Pro/mrr.nc')
+MRR_read_in
