@@ -12,17 +12,14 @@ MRR_read_in = Dataset('/Users/adamabdelhak/Downloads/MRR-Pro/mrr.nc')
 MRR_read_in
 time = MRR_read_in['time'][:]
 time = np.array(netCDF4.num2date(time, units = 'seconds since 2022-01-17 00:00:00'),dtype = 'datetime64[ns]')
-reflectivity = MRR_read_in['spectrum_raw'][:]
-radar = MRR_read_in['range'][:]
-length = len(radar)
+reflectivity = MRR_read_in['Z'][:]
+height = MRR_read_in['altitude'][:]
 
-for i in range (length):
-    st = pd.to_datetime(radar[i][0])
-    et = pd.to_datetime(radar[i][1])
-    itx = np.where((time > st)&(time < et))[0]
-    fig,ax = plt.subplots(figsize = (15,5))
-    ax.plot(time[itx],reflectivity[itx])
-    ax.set_xlim(st,et)
-    ax.set_xlabel('Time'), ax.set_ylabel('Reflectivity')
-    plt.show()
-    print(itx)
+fig,ax = plt.subplots(figsize = (15,5))
+ax.plot(time,reflectivity)
+ax.set_xlabel('Time'), ax.set_ylabel('Reflectivity')
+ax2 = ax.twinx()
+ax2.plot(time,height, color = 'red')
+ax2.set_ylabel('Height')
+ax.set_title('Rainfall varies with Time')
+plt.show()
