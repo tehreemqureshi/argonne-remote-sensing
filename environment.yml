@@ -1,10 +1,25 @@
 name: argonne-remote-sensing-dev
 channels:
   - conda-forge
+  - defaults
+  - pyviz
 dependencies:
-  - jupyter-book
+  - arm_pyart
+  - act-atmos
+  - matplotlib
   - jupyterlab
-  - jupyter_server<2
+  - cartopy
+  - numpy
+  - dask
+  - distributed
+  - xarray
+  - pandas<2.0
+  - fiona
+  - hvplot
+  - imageio
   - pip
   - pip:
-      - sphinx-pythia-theme
+    - ambient-api
+    - sage-data-client
+    - nexradaws
+    - git+https://github.com/hippalectryon-0/xr-scipy
