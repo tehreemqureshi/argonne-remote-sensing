@@ -22,3 +22,4 @@ dependencies:
     - ambient-api
     - sage-data-client
     - nexradaws
+    - git+https://github.com/hippalectryon-0/xr-scipy
