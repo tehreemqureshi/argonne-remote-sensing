@@ -14,6 +14,7 @@ dependencies:
   - distributed
   - xarray
   - pandas<2.0
+  - jupyter-book
   - fiona
   - hvplot
   - imageio
