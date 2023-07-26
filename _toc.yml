@@ -4,3 +4,19 @@ parts:
   - caption: Introduction
     chapters:
       - file: notebooks/notebook-template
+  - caption: Basic Ceilometer Data & Noise Filtering
+    chapters:
+      - file: notebooks/smokey_plots
+      - file: notebooks/smokeylineplots
+  - caption: RHI & VPT Code Reproduction (credit: Scott Collis) 
+    chapters:
+      - file: notebooks/DL-VPT
+      - file: notebooks/DLCombo
+      - file: notebooks/0628DLCombo
+  - caption: KLOT NEXRAD Data & ATMOS Column Extraction
+    chapters:
+      - file: notebooks/0702ATMOSColumn
+      - file: notebooks/0704ATMOSColumn
+  - caption: Four Plot Panel (MRR, CL, NEXRAD) 
+    chapters: 
+      - file: notebooks/4PanelPlot  
